@@ -1,7 +1,7 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { setupListeners } from '@reduxjs/toolkit/query';
-import { usersReducer } from './slices/usersSlice';
-import { albumsApi } from './apis/albumsApi';
+import { configureStore } from "@reduxjs/toolkit";
+import { setupListeners } from "@reduxjs/toolkit/query";
+import { usersReducer } from "./slices/usersSlice";
+import { albumsApi } from "./apis/albumsApi";
 
 export const store = configureStore({
   reducer: {
@@ -13,9 +13,14 @@ export const store = configureStore({
   },
 });
 
+// temp
+
+window.store = store;
+
+
 setupListeners(store.dispatch);
 
-export * from './thunks/fetchUsers';
-export * from './thunks/addUser';
-export * from './thunks/removeUser';
-export { useFetchAlbumsQuery } from './apis/albumsApi';
+export * from "./thunks/fetchUsers";
+export * from "./thunks/addUser";
+export * from "./thunks/removeUser";
+export { useFetchAlbumsQuery, useAddAlbumMutation } from "./apis/albumsApi";
