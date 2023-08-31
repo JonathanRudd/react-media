@@ -1,26 +1,32 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Leanne Graham"
-    },
-    {
-      "id": 2,
-      "name": "Ervin Howell"
-    },
-    {
-      "name": "Dr. Rosemarie Hudson",
-      "id": 4
-    },
-    {
       "name": "Derrick Larkin",
       "id": 9
     },
     {
-      "name": "Abraham Hettinger",
+      "name": "Yolanda Ferry",
       "id": 10
+    },
+    {
+      "name": "Jacquelyn Stoltenberg IV",
+      "id": 13
+    },
+    {
+      "name": "Mr. Domingo Lang",
+      "id": 15
+    },
+    {
+      "name": "Mr. Clyde Jast",
+      "id": 18
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "cool birds",
+      "userId": 9
+    }
+  ],
   "photos": []
 }
