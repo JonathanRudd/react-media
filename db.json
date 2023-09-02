@@ -38,11 +38,6 @@
     },
     {
       "userId": 9,
-      "title": "Rustic Wooden Chair",
-      "id": 3
-    },
-    {
-      "userId": 9,
       "title": "Bespoke Concrete Tuna",
       "id": 4
     },
@@ -80,6 +75,16 @@
       "userId": 13,
       "title": "Handmade Concrete Hat",
       "id": 11
+    },
+    {
+      "userId": 15,
+      "title": "Elegant Wooden Cheese",
+      "id": 12
+    },
+    {
+      "userId": 18,
+      "title": "Refined Plastic Gloves",
+      "id": 13
     }
   ],
   "photos": []
